@@ -64,7 +64,7 @@ inc=1;
                        
                   //for loops arou but where it is also vwhere ts ztzeubngfs  gfrshgfs iblend here
                   
-                 alert(firstOnes.length)
+                 
                    
         if (firstOnes.length==secondOnes.length) {
        //pre defined randoms. Thats the main idea. 
@@ -81,7 +81,7 @@ num1--;
                     return;
                    }
 
-          alert(firstVals.length);
+          
 
 
        
