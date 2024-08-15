@@ -146,14 +146,8 @@ function showTranslation() {
 
 
 
-function arrow(){
- document.addEventListener('keydown', function(event) {
-    // Check if the left arrow key (key code 37) is pressed
+function arrow1(){
 
-
-
-
-    if ((event.key === 'ArrowRight' && inc<num4 ) || (event.keyCode === 39 && inc<num4 )) { 
 
         inc++;
 
@@ -163,14 +157,10 @@ function arrow(){
                       document.getElementById("tr").textContent=`${secondVals[inc-1]}`;
 
 
-    } 
-});
+}
 
-    document.addEventListener('keydown', function(event) {
-        // Check if the left arrow key (key code 37) is pressed
-
-        if ((event.key === 'ArrowLeft' && inc>1) || (event.keyCode === 37 && inc>1)) {
-
+function arrow2(){
+ 
 
 
 
@@ -188,6 +178,5 @@ function arrow(){
 
 
 
-        }
-    });
+    
 }
