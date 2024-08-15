@@ -121,7 +121,7 @@ num1--;
    alert("Please, recheck your submission.");
 
     }
-arrow();
+
 } 
 
 function showTranslation() {
