@@ -124,8 +124,9 @@ num1--;
 arrow();
 } 
 
-function showTranslation() {
 
+  
+function showTranslation() {
         tr= document.getElementById("tr");
     if(tr.classList.contains("hidden")){
         
@@ -137,9 +138,9 @@ function showTranslation() {
         document.getElementById("tr").classList.remove('visible');
          document.getElementById("tr").classList.add('hidden');
         
-    }}
+    }
   
-
+}
 
 
 
